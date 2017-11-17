@@ -1,3 +1,5 @@
+This game engine has included a project that I created in it to use as an example to show how it works.
+
 KNOWN BUGS:
 - Scenemanager's stack will randomly reset, I don't know why. But because of this, you can't pop the stack, so you can't
 go back to other scenes.
