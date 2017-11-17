@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<payload>
+  <file path="E:\AndroidDev\TemplateVSCrossPlat\Platforms\iOS-Application\\vcreference.xcconfig" changed="2016-05-26T08:38:48.7051293-04:00" />
+  <file path="E:\AndroidDev\TemplateVSCrossPlat\Platforms\iOS-Application\iOS\AppDelegate.mm" changed="2016-02-26T21:46:42-05:00" />
+  <file path="E:\AndroidDev\TemplateVSCrossPlat\Platforms\iOS-Application\iOS\GameViewController.mm" changed="2016-05-24T15:06:40.2666192-04:00" />
+  <file path="E:\AndroidDev\TemplateVSCrossPlat\Platforms\iOS-Application\iOS\main.mm" changed="2015-09-21T18:11:16-04:00" />
+  <file path="E:\AndroidDev\TemplateVSCrossPlat\Platforms\iOS-Application\iOS\AppDelegate.h" changed="2015-09-21T18:11:16-04:00" />
+  <file path="E:\AndroidDev\TemplateVSCrossPlat\Platforms\iOS-Application\iOS\GameViewController.h" changed="2015-09-21T18:11:16-04:00" />
+  <file path="E:\AndroidDev\TemplateVSCrossPlat\Platforms\iOS-Application\iOS\Info.plist" changed="2016-05-26T09:31:10.1064546-04:00" />
+  <file path="E:\AndroidDev\TemplateVSCrossPlat\Platforms\iOS-Application\iOS\Base.lproj\Main.storyboard" changed="2015-09-21T18:11:16-04:00" />
+  <file path="E:\AndroidDev\TemplateVSCrossPlat\Platforms\iOS-Application\iOS\Images.xcassets\AppIcon.appiconset\Contents.json" changed="2015-09-21T18:11:16-04:00" />
+  <file path="E:\AndroidDev\TemplateVSCrossPlat\Platforms\iOS-Application\iOS-Application.xcodeproj\project.pbxproj" changed="2016-05-24T16:02:15.6916395-04:00" />
+</payload>

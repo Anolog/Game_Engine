@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{016716D6-2BDB-4B95-A6AE-0BD71C6C98B7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Win32", "Platforms\Win32-Application\Win32-Application.vcxproj", "{C504882D-FDED-4949-8A2B-6847899502E5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shared", "Shared\Shared.vcxitems", "{04735107-3ECB-4BB0-986F-AB19FCF6073A}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared\Shared.vcxitems*{04735107-3ecb-4bb0-986f-ab19fcf6073a}*SharedItemsImports = 9
+		Shared\Shared.vcxitems*{c504882d-fded-4949-8a2b-6847899502e5}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C504882D-FDED-4949-8A2B-6847899502E5}.Debug|x86.ActiveCfg = Debug|Win32
+		{C504882D-FDED-4949-8A2B-6847899502E5}.Debug|x86.Build.0 = Debug|Win32
+		{C504882D-FDED-4949-8A2B-6847899502E5}.Release|x86.ActiveCfg = Release|Win32
+		{C504882D-FDED-4949-8A2B-6847899502E5}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C504882D-FDED-4949-8A2B-6847899502E5} = {016716D6-2BDB-4B95-A6AE-0BD71C6C98B7}
+	EndGlobalSection
+EndGlobal

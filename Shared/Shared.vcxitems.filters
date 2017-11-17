@@ -1,0 +1,642 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\lodepng\lodepng.cpp">
+      <Filter>Libraries\lodepng</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Core\Math\MyMatrix.cpp">
+      <Filter>Source\Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Core\Math\MyQuaternion.cpp">
+      <Filter>Source\Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Core\Math\Vector.cpp">
+      <Filter>Source\Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Core\Utility\Helpers.cpp">
+      <Filter>Source\Core\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Core\Utility\ShaderProgram.cpp">
+      <Filter>Source\Core\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\Base\Scene.cpp">
+      <Filter>Source\Game\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\Mesh\Mesh.cpp">
+      <Filter>Source\Game\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\Mesh\MeshShapes.cpp">
+      <Filter>Source\Game\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\GameCore.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Rope\b2Rope.cpp">
+      <Filter>Libraries\Box2D\Rope</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Joints\b2DistanceJoint.cpp">
+      <Filter>Libraries\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Joints\b2FrictionJoint.cpp">
+      <Filter>Libraries\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Joints\b2GearJoint.cpp">
+      <Filter>Libraries\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Joints\b2Joint.cpp">
+      <Filter>Libraries\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Joints\b2MotorJoint.cpp">
+      <Filter>Libraries\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Joints\b2MouseJoint.cpp">
+      <Filter>Libraries\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Joints\b2PrismaticJoint.cpp">
+      <Filter>Libraries\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Joints\b2PulleyJoint.cpp">
+      <Filter>Libraries\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Joints\b2RevoluteJoint.cpp">
+      <Filter>Libraries\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Joints\b2RopeJoint.cpp">
+      <Filter>Libraries\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Joints\b2WeldJoint.cpp">
+      <Filter>Libraries\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Joints\b2WheelJoint.cpp">
+      <Filter>Libraries\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.cpp">
+      <Filter>Libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.cpp">
+      <Filter>Libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Contacts\b2CircleContact.cpp">
+      <Filter>Libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Contacts\b2Contact.cpp">
+      <Filter>Libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Contacts\b2ContactSolver.cpp">
+      <Filter>Libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.cpp">
+      <Filter>Libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.cpp">
+      <Filter>Libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.cpp">
+      <Filter>Libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Contacts\b2PolygonContact.cpp">
+      <Filter>Libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Common\b2BlockAllocator.cpp">
+      <Filter>Libraries\Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Common\b2Draw.cpp">
+      <Filter>Libraries\Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Common\b2Math.cpp">
+      <Filter>Libraries\Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Common\b2Settings.cpp">
+      <Filter>Libraries\Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Common\b2StackAllocator.cpp">
+      <Filter>Libraries\Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Common\b2Timer.cpp">
+      <Filter>Libraries\Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Collision\Shapes\b2ChainShape.cpp">
+      <Filter>Libraries\Box2D\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Collision\Shapes\b2CircleShape.cpp">
+      <Filter>Libraries\Box2D\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Collision\Shapes\b2EdgeShape.cpp">
+      <Filter>Libraries\Box2D\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Collision\Shapes\b2PolygonShape.cpp">
+      <Filter>Libraries\Box2D\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Collision\b2BroadPhase.cpp">
+      <Filter>Libraries\Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Collision\b2CollideCircle.cpp">
+      <Filter>Libraries\Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Collision\b2CollideEdge.cpp">
+      <Filter>Libraries\Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Collision\b2CollidePolygon.cpp">
+      <Filter>Libraries\Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Collision\b2Collision.cpp">
+      <Filter>Libraries\Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Collision\b2Distance.cpp">
+      <Filter>Libraries\Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Collision\b2DynamicTree.cpp">
+      <Filter>Libraries\Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Collision\b2TimeOfImpact.cpp">
+      <Filter>Libraries\Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\b2Body.cpp">
+      <Filter>Libraries\Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\b2ContactManager.cpp">
+      <Filter>Libraries\Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\b2Fixture.cpp">
+      <Filter>Libraries\Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\b2Island.cpp">
+      <Filter>Libraries\Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\b2World.cpp">
+      <Filter>Libraries\Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\b2WorldCallbacks.cpp">
+      <Filter>Libraries\Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\Libraries\cJSON\cJSON.cpp">
+      <Filter>Libraries\cJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\Base\ResourceManager.cpp">
+      <Filter>Source\Game\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\GameObjects\CameraObject.cpp">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\GameObjects\GameObject.cpp">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\GameObjects\PlayerController.cpp">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\Box2D\Box2DContactListener.cpp">
+      <Filter>Source\Game\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\Box2D\Box2DDebugDraw.cpp">
+      <Filter>Source\Game\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\Box2D\Box2DWorld.cpp">
+      <Filter>Source\Game\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\GameObjects\PlayerObject.cpp">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Core\Utility\MyMemory.cpp">
+      <Filter>Source\Core\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\Mesh\OBJLoader.cpp">
+      <Filter>Source\Game\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\BaseScene.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\GameObjects\PlayerBullet.cpp">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\GameObjects\TurretEnemy.cpp">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\GameObjects\EnemyBullet.cpp">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\MainMenuScene.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\Mesh\MeshHelpers.cpp">
+      <Filter>Source\Game\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\SaveScene.cpp">
+      <Filter>Source\Game\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\SceneManager.cpp">
+      <Filter>Source\Game\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\SoundManager.cpp">
+      <Filter>Source\Game\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\FBODefinition.cpp">
+      <Filter>Source\Game\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\GameObjects\JumpingEnemy.cpp">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\FlashmanScene.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\GameObjects\Collectable.cpp">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Core\Utility\TweenFuncs.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\GameOverScene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\PauseScene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Source\Game\TitleScreen.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\lodepng\lodepng.h">
+      <Filter>Libraries\lodepng</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Core\Math\MyMatrix.h">
+      <Filter>Source\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Core\Math\MyQuaternion.h">
+      <Filter>Source\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Core\Math\Vector.h">
+      <Filter>Source\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Core\Utility\Helpers.h">
+      <Filter>Source\Core\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Core\Utility\ShaderProgram.h">
+      <Filter>Source\Core\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\Base\Scene.h">
+      <Filter>Source\Game\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\Mesh\Mesh.h">
+      <Filter>Source\Game\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\Mesh\VertexFormat.h">
+      <Filter>Source\Game\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Core\Math\MathHelpers.h">
+      <Filter>Source\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\GameCore.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\GameHeaders.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Core\CoreHeaders.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Box2D.h">
+      <Filter>Libraries\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Rope\b2Rope.h">
+      <Filter>Libraries\Box2D\Rope</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Joints\b2DistanceJoint.h">
+      <Filter>Libraries\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Joints\b2FrictionJoint.h">
+      <Filter>Libraries\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Joints\b2GearJoint.h">
+      <Filter>Libraries\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Joints\b2Joint.h">
+      <Filter>Libraries\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Joints\b2MotorJoint.h">
+      <Filter>Libraries\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Joints\b2MouseJoint.h">
+      <Filter>Libraries\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Joints\b2PrismaticJoint.h">
+      <Filter>Libraries\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Joints\b2PulleyJoint.h">
+      <Filter>Libraries\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Joints\b2RevoluteJoint.h">
+      <Filter>Libraries\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Joints\b2RopeJoint.h">
+      <Filter>Libraries\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Joints\b2WeldJoint.h">
+      <Filter>Libraries\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Joints\b2WheelJoint.h">
+      <Filter>Libraries\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.h">
+      <Filter>Libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.h">
+      <Filter>Libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Contacts\b2CircleContact.h">
+      <Filter>Libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Contacts\b2Contact.h">
+      <Filter>Libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Contacts\b2ContactSolver.h">
+      <Filter>Libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.h">
+      <Filter>Libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.h">
+      <Filter>Libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.h">
+      <Filter>Libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\Contacts\b2PolygonContact.h">
+      <Filter>Libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Common\b2BlockAllocator.h">
+      <Filter>Libraries\Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Common\b2Draw.h">
+      <Filter>Libraries\Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Common\b2GrowableStack.h">
+      <Filter>Libraries\Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Common\b2Math.h">
+      <Filter>Libraries\Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Common\b2Settings.h">
+      <Filter>Libraries\Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Common\b2StackAllocator.h">
+      <Filter>Libraries\Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Common\b2Timer.h">
+      <Filter>Libraries\Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Collision\Shapes\b2ChainShape.h">
+      <Filter>Libraries\Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Collision\Shapes\b2CircleShape.h">
+      <Filter>Libraries\Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Collision\Shapes\b2EdgeShape.h">
+      <Filter>Libraries\Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Collision\Shapes\b2PolygonShape.h">
+      <Filter>Libraries\Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Collision\Shapes\b2Shape.h">
+      <Filter>Libraries\Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Collision\b2BroadPhase.h">
+      <Filter>Libraries\Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Collision\b2Collision.h">
+      <Filter>Libraries\Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Collision\b2Distance.h">
+      <Filter>Libraries\Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Collision\b2DynamicTree.h">
+      <Filter>Libraries\Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Collision\b2TimeOfImpact.h">
+      <Filter>Libraries\Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\b2Body.h">
+      <Filter>Libraries\Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\b2ContactManager.h">
+      <Filter>Libraries\Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\b2Fixture.h">
+      <Filter>Libraries\Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\b2Island.h">
+      <Filter>Libraries\Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\b2TimeStep.h">
+      <Filter>Libraries\Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\b2World.h">
+      <Filter>Libraries\Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\Box2D\Box2D\Box2D\Dynamics\b2WorldCallbacks.h">
+      <Filter>Libraries\Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Libraries\cJSON\cJSON.h">
+      <Filter>Libraries\cJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\Events\Event.h">
+      <Filter>Source\Game\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\Events\InputEvent.h">
+      <Filter>Source\Game\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\Base\ResourceManager.h">
+      <Filter>Source\Game\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\GameObjects\CameraObject.h">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\GameObjects\GameObject.h">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\GameObjects\PlayerController.h">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\Box2D\Box2DContactListener.h">
+      <Filter>Source\Game\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\Box2D\Box2DDebugDraw.h">
+      <Filter>Source\Game\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\Box2D\Box2DWorld.h">
+      <Filter>Source\Game\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\SimplePool.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\GameObjects\PlayerObject.h">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\Events\RemoveFromSceneEvent.h">
+      <Filter>Source\Game\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Core\Utility\MyMemory.h">
+      <Filter>Source\Core\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Core\Utility\CPPList.h">
+      <Filter>Source\Core\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\Mesh\OBJLoader.h">
+      <Filter>Source\Game\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\BaseScene.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\GameObjects\PlayerBullet.h">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\CategoryFilters.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\GameObjects\TurretEnemy.h">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\GameObjects\EnemyBullet.h">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\MainMenuScene.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\SaveScene.h">
+      <Filter>Source\Game\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\SceneManager.h">
+      <Filter>Source\Game\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\SoundManager.h">
+      <Filter>Source\Game\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\FBODefinition.h">
+      <Filter>Source\Game\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\GameObjects\JumpingEnemy.h">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\FlashmanScene.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\GameObjects\Collectable.h">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Core\Utility\TweenFuncs.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\GameOverScene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\PauseScene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Source\Game\TitleScreen.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Data">
+      <UniqueIdentifier>{c793aa77-1210-4e59-9925-4a71367b3b35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Shaders">
+      <UniqueIdentifier>{5d66ae9e-89b9-400f-a379-e5176b7b7f78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{9f74afd4-f513-4aaf-a6be-624326236288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game">
+      <UniqueIdentifier>{617175d8-08e5-4be8-82ec-e3f1163403f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Base">
+      <UniqueIdentifier>{517d0138-1415-4358-8270-5016800582ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Mesh">
+      <UniqueIdentifier>{271c815a-71bd-4a01-818f-ffe6c5f5c924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core">
+      <UniqueIdentifier>{127a9c1d-fe84-41e6-8466-76c848342c8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\Math">
+      <UniqueIdentifier>{96de40f4-926a-463c-9726-4107e6169a54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\Utility">
+      <UniqueIdentifier>{0dc6b8f0-8a6d-4794-b8f4-2cc312ac7cc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{b2d6899f-167f-490c-be3f-714ac1f2b776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\lodepng">
+      <UniqueIdentifier>{ab2d0aaa-8140-4275-aff8-82a453d3ffd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\cJSON">
+      <UniqueIdentifier>{33a58f0e-34c3-46e2-b6f3-4c630242e621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Box2D">
+      <UniqueIdentifier>{8caf4175-a7bf-4aa9-ae3e-af11b663ae5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Box2D\Collision">
+      <UniqueIdentifier>{83398946-479a-4e05-aead-45033209e568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Box2D\Common">
+      <UniqueIdentifier>{815e934b-9cce-4a04-9493-5e208889ee92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Box2D\Dynamics">
+      <UniqueIdentifier>{268a6ea8-a959-4393-899d-7c14d0c2354e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Box2D\Rope">
+      <UniqueIdentifier>{c185cf9e-ada9-43a3-8373-97e305eb925c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Box2D\Collision\Shapes">
+      <UniqueIdentifier>{bf7bc38f-a68b-4afb-b3e2-8440102520c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Box2D\Dynamics\Contacts">
+      <UniqueIdentifier>{93fe1f00-9060-4cbc-a675-6feef18cbacb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Box2D\Dynamics\Joints">
+      <UniqueIdentifier>{58814f3e-88e6-4ddf-9c39-1c1fdb5d91c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Events">
+      <UniqueIdentifier>{414fcab1-d68d-4425-bbb9-e349fd599ac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\GameObjects">
+      <UniqueIdentifier>{cc5d9743-daf5-400a-bca6-eb21514c8189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Box2D">
+      <UniqueIdentifier>{9a6256d5-f8a2-410e-99a9-ada6233d6624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Scenes">
+      <UniqueIdentifier>{8a7140c6-16a4-4a6f-9609-7dfcc18f47b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\SceneManagement">
+      <UniqueIdentifier>{adb49928-b7eb-4521-a7eb-9025ea1e2b33}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)..\Data\Shaders\Texture.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\Data\Shaders\Texture.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\Data\Shaders\white.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\Data\Shaders\white.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\Data\Shaders\Box2DDebug.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\Data\Shaders\Box2DDebug.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\Data\Scenes\Basic.box2dscene">
+      <Filter>Data\Scenes</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\Data\Shaders\Lighting.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\Data\Shaders\Lighting.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\Data\Shaders\Cube.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\Data\Shaders\Cube.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\Data\Shaders\font.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\Data\Shaders\font.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\Data\Shaders\TitleText.frag" />
+    <None Include="$(MSBuildThisFileDirectory)..\Data\Shaders\TitleText.vert" />
+  </ItemGroup>
+</Project>
